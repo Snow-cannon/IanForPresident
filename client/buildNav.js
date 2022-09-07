@@ -61,6 +61,7 @@ function buildNav(container) {
 
     addPage('Home', '/');
     addPage('Fundraisers', './fundraiser.html');
+    addPage('Events', './events.html');
 
     container.appendChild(nav);
 }
