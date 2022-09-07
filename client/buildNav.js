@@ -60,7 +60,7 @@ function buildNav(container) {
     }
 
     addPage('Home', '/');
-    // addPage('Fundraisers', './fundraiser.html');
+    addPage('Fundraisers', './fundraiser.html');
 
     container.appendChild(nav);
 }
