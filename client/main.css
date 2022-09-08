@@ -51,3 +51,28 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.parallax-header {
+    background: #000;
+    background: url("./imgs/HHS.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+}
+
+.topper {
+    margin-top: -100px;
+    box-shadow: 0 0 20px;
+    background-color: #FBFBFB;
+}
+
+.header-content {
+    box-shadow: 0 0 20px;
+    background-color: #FBFBFB;
+    margin-top: calc(40vh - 40px);
+    padding: 10px;
+    padding-bottom: 5px;
+}
