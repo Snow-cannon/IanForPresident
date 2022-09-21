@@ -54,7 +54,7 @@ footer {
 
 .parallax-header {
     background: #000;
-    background: url("./imgs/HHS.jpg");
+    background: url("./imgs/HHS-angled.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -69,10 +69,36 @@ footer {
     background-color: #FBFBFB;
 }
 
+.portrait {
+    margin-top: 20px;
+    margin-bottom: -60px;
+    box-shadow: 0 0 20px;
+    background-color: #FBFBFB;
+}
+
 .header-content {
     box-shadow: 0 0 20px;
     background-color: #FBFBFB;
     margin-top: calc(40vh - 40px);
     padding: 10px;
     padding-bottom: 5px;
+}
+
+.dates {
+    color: rgb(120, 120, 120);
+}
+
+.event-container>.event-title {
+    margin-bottom: 10px;
+}
+
+.event-title {
+    background-color: #f0f0f0;
+    outline: none;
+    width: 100%;
+    font-size:large;
+}
+
+.event-description {
+    
 }

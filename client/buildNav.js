@@ -15,7 +15,7 @@ function buildNav(container) {
     let home = document.createElement('a');
     home.classList.add('navbar-brand');
     home.classList.add('text-white');
-    home.innerHTML = '<b>Ian for President!</b>';
+    home.innerHTML = '<b>HHS Senior Class Gov.</b>';
     outerDiv.appendChild(home);
 
     let toggle = document.createElement('button');
@@ -60,9 +60,9 @@ function buildNav(container) {
     }
 
     addPage('Home', '/');
-    addPage('Fundraisers', './fundraiser.html');
     addPage('Events', './events.html');
-    addPage('Media', './media.html');
+    addPage('Spirit Week', './spiritweek.html');
+    addPage('FAQ', './faq.html');
 
     container.appendChild(nav);
 }

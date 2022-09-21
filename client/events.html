@@ -15,7 +15,7 @@
         crossorigin="anonymous"></script>
 
     <!-- Main CSS file -->
-    <link href="../main.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <div class="col"></div>
             <div class="col-auto">
                 <div class="header-content rounded">
-                    <h1><b>Events</b></h1>
+                    <h1><b>Upcoming Events!</b></h1>
                 </div>
             </div>
             <div class="col"></div>
@@ -35,24 +35,53 @@
 
     <div class="row">
         <div class="col"></div>
-        <div class="col-lg-8 justify-content-center col-padded">
+        <div class="col-lg-8 justify-content-center col-padded container" id="event-container">
             <br>
             <br>
             <br>
-            <p class="justice">As the senior class it's partially up to us to set an example and leave a school that the
-                future grades can be proud of. Interestingly, this requires the 2023 gov to spend more time focusing on
-                improving the other grades separate communities. The easiest way to help the other grades and make grade
-                pride soar is by holding events for everyone to go to. I suggest that any events planned that could
-                involve the other grades (excluding the last and first) should.</p>
-            <p class="justice">Pep rallies are honestly not a problem at this point. The most important thing is to keep
-                inter-class comps going. Pep rallies should not run from the idea of an indoor venue when in the gym
-                they are much more audible, and the gym is not so spacious as to make the sports teams feel smaller
-                than they really are.</p>
-            <p class="justice">The Red Sea is a great asset and should be used to the fullest we can. A representative
-                from the Red Sea should come to government meetings as a further representation of the class since the more
-                people elected that show up, the better the representation. They will be responsible for creating the
-                spirit themes for games, promoting outreach for games, helping to corral the Red Sea for chants, and
-                putting the best foot forward from HHS at other schools.</p>
+
+            <p>Below is a list of the planned events! Events will be updated and added as plans are made, so keep
+                checking back to get the newest updates! If you have any questions about</p>
+
+            <div class="event-container">
+                <!-- Spirit Week -->
+                <a class="btn event-title" data-bs-toggle="collapse" href="#collapse-spirit" role="button"
+                    aria-expanded="false" aria-controls="collapse-spirit">
+                    <b>Spirit Week</b>
+                </a>
+                <div class="collapse event-description" id="collapse-spirit">
+                    <h5 class="dates text-center">October 11th - 14th (Tue - Fri)</h5>
+                    <p class="justice">More info about each day of spirit week will be released after the spirit
+                        meeting! All details that get released will be found on the
+                        <a href="./spiritweek.html">Spirit Week</a> page.
+                    </p>
+                    <hr>
+                </div>
+
+                <!-- Homecoming -->
+                <a class="btn event-title" data-bs-toggle="collapse" href="#collapse-homecoming" role="button"
+                    aria-expanded="false" aria-controls="collapse-homecoming">
+                    <b>Homecoming</b>
+                </a>
+                <div class="collapse" id="collapse-homecoming">
+                    <h5 class="dates text-center">October 15th (Thu)</h5>
+                    <p class="justice">Details about homecoming</p>
+                    <hr>
+                </div>
+
+                <!-- Graduation -->
+                <a class="btn event-title" data-bs-toggle="collapse" href="#collapse-graduation" role="button"
+                    aria-expanded="false" aria-controls="collapse-graduation">
+                    <b>Graduation</b>
+                </a>
+
+                <div class="collapse" id="collapse-graduation">
+                    <h5 class="dates text-center">June 3rd (Sat)</h5>
+                    <p class="justice">Details about Graduation</p>
+                    <hr>
+                </div>
+
+            </div>
         </div>
         <div class="col"></div>
     </div>
